@@ -18,6 +18,7 @@ class NoteDetailTableViewController: UITableViewController, UIImagePickerControl
     let newNoteDateFormatter = DateFormatter()
     let imagePickerController = UIImagePickerController()
     
+    var category: Category?
     var note: Note?
     var image: UIImage?
     

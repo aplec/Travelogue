@@ -19,6 +19,9 @@
 		5A2A535C24648CA000638293 /* NoteDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A535B24648CA000638293 /* NoteDetailTableViewController.swift */; };
 		5A2A536624650AED00638293 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A536524650AED00638293 /* Note+CoreDataClass.swift */; };
 		5A2A536824650AF300638293 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A536724650AF300638293 /* Note+CoreDataProperties.swift */; };
+		5A2A536B2465143A00638293 /* CategoryCoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A536A2465143900638293 /* CategoryCoreDataClass.swift */; };
+		5A2A536D2465144500638293 /* CategoryCoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A536C2465144500638293 /* CategoryCoreDataProperties.swift */; };
+		5A2A536F2465148100638293 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A536E2465148100638293 /* CategoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		5A2A535B24648CA000638293 /* NoteDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailTableViewController.swift; sourceTree = "<group>"; };
 		5A2A536524650AED00638293 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5A2A536724650AF300638293 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A2A536A2465143900638293 /* CategoryCoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCoreDataClass.swift; sourceTree = "<group>"; };
+		5A2A536C2465144500638293 /* CategoryCoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCoreDataProperties.swift; sourceTree = "<group>"; };
+		5A2A536E2465148100638293 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				5A2A53242463F43900638293 /* AppDelegate.swift */,
 				5A2A53262463F43900638293 /* SceneDelegate.swift */,
 				5A2A535924648C8E00638293 /* Main.storyboard */,
+				5A2A536E2465148100638293 /* CategoriesViewController.swift */,
 				5A2A535724648C7600638293 /* NotesViewController.swift */,
 				5A2A535B24648CA000638293 /* NoteDetailTableViewController.swift */,
 				5A2A53302463F43C00638293 /* Assets.xcassets */,
@@ -143,6 +150,8 @@
 			children = (
 				5A2A536524650AED00638293 /* Note+CoreDataClass.swift */,
 				5A2A536724650AF300638293 /* Note+CoreDataProperties.swift */,
+				5A2A536A2465143900638293 /* CategoryCoreDataClass.swift */,
+				5A2A536C2465144500638293 /* CategoryCoreDataProperties.swift */,
 				5A2A532D2463F43900638293 /* Travelogue.xcdatamodeld */,
 			);
 			path = Model;
@@ -280,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2A535C24648CA000638293 /* NoteDetailTableViewController.swift in Sources */,
+				5A2A536D2465144500638293 /* CategoryCoreDataProperties.swift in Sources */,
+				5A2A536B2465143A00638293 /* CategoryCoreDataClass.swift in Sources */,
 				5A2A535824648C7600638293 /* NotesViewController.swift in Sources */,
+				5A2A536F2465148100638293 /* CategoriesViewController.swift in Sources */,
 				5A2A532F2463F43900638293 /* Travelogue.xcdatamodeld in Sources */,
 				5A2A53252463F43900638293 /* AppDelegate.swift in Sources */,
 				5A2A536624650AED00638293 /* Note+CoreDataClass.swift in Sources */,

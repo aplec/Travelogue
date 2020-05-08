@@ -11,6 +11,7 @@ import CoreData
 
 class NotesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var category: Category?
     var notes = [Note]()
     var dateFormatter = DateFormatter()
     @IBOutlet weak var notesTableView: UITableView!
@@ -91,7 +92,7 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
             do {
                 try managedObjectContext.save()
                 self.notes.remove(at: indexPath.row)
-                notesTableView.reloadData()
+                notesTableView.deleteRows(at: [indexPath], with: .automatic)
             } catch {
                 alertNotifyUser(message: "Delete failed.")
                 notesTableView.reloadData()
@@ -105,3 +106,5 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.present(alert, animated: true, completion: nil)
     }
 }
+
+

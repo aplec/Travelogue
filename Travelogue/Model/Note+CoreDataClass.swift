@@ -43,6 +43,7 @@ public class Note: NSManagedObject {
         }
         
         self.init(entity: Note.entity(), insertInto: managedContext)
+        
         self.title = title
         self.body = body
         self.addDate = Date(timeIntervalSinceNow: 0)
